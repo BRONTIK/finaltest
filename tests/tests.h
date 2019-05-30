@@ -1,7 +1,9 @@
 #ifndef TESTS_H 
 #define TESTS_H 
 
-
+extern "C" {
+#include "tests.h"
+}
 /* Тест проверяющий, что список "Коктейли" 
 * заполнен правильно 
 */ 
