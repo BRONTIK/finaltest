@@ -60,7 +60,7 @@ EXPECT_EQ("Corpse reviver", ui->List->item(1));
 /* Тест проверяющий, что в подсказке вылезают нужные элементы 
 * и что регистр не имеет значения 
 */ 
-TEST(test4, suite4) 
+TEST(test4, suite4) {
 list_filling(""); 
 
 ui->lineEdit->setText("p"); 
@@ -87,5 +87,5 @@ EXPECT_EQ(w.itemText(), ui->List->item(count));
 count++; 
 } 
 } 
-
+}
 #endif // TESTS_H
