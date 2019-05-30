@@ -17,7 +17,7 @@ public:
     void comboBox_filling();
     void textBrowser_filling(QString name);
     void list_filling(const QString &arg1);
-    explicit Widget(QWidget *parent = nullptr);
+    explicit Widget(QWidget *parent = NULL);
     ~Widget();
 
 private slots:
