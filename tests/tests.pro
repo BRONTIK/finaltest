@@ -16,7 +16,7 @@ LIBS += -lgcov
 
 HEADERS +=     tests.h \
     ../app/widget.h \
-    ui_widget.h
+    
 
 SOURCES +=     main.cpp \
     ../app/widget.cpp
@@ -26,7 +26,7 @@ INCLUDEPATH += ../app
 DISTFILES += listItems
 
 FORMS += \
-        widget.ui
+        ../app/widget.ui
 
 
 
