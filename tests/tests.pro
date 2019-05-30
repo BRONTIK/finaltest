@@ -14,14 +14,10 @@ QMAKE_CXXFLAGS += -fprofile-arcs -ftest-coverage
 QMAKE_CFLAGS += -fprofile-arcs -ftest-coverage
 LIBS += -lgcov
 
+HEADERS +=     tests.h 
 
-HEADERS += tests.h \
-	widget.h
-	
-
-SOURCES += main.cpp
+SOURCES +=     main.cpp
 
 INCLUDEPATH += ../app
 
 DISTFILES += listItems
-	
