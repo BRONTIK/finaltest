@@ -15,7 +15,8 @@ QMAKE_CFLAGS += -fprofile-arcs -ftest-coverage
 LIBS += -lgcov
 
 HEADERS +=     tests.h \
-    ../app/widget.h 
+    ../app/widget.h \
+    ui_widget.h
 
 SOURCES +=     main.cpp \
     ../app/widget.cpp
