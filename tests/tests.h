@@ -4,7 +4,7 @@
 #include <gtest/gtest.h>
 
 extern "C" {
-#include "tests.h"
+#include "widget.h"
 }
 /* Тест проверяющий, что список "Коктейли" 
 * заполнен правильно 
