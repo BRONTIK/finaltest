@@ -24,5 +24,8 @@ INCLUDEPATH += ../app
 
 DISTFILES += listItems
 
+FORMS += \
+        widget.ui
+
 
 
