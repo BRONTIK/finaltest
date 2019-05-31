@@ -5,6 +5,7 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG += thread
 CONFIG += qt
+QT     += core widgets gui
 
 QMAKE_CXXFLAGS += -Wall -Wextra -Werror
 QMAKE_CFLAGS += -Wall -Wextra -Werror
