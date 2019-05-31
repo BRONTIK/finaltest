@@ -3,6 +3,7 @@ language:
 
 before_install:
   - pip install --user cpp-coveralls
+  - apt install libqt5widgets5
 
 addons:
   sonarcloud:
