@@ -3,7 +3,7 @@ language:
 
 before_install:
   - pip install --user cpp-coveralls
-  - sudo apt-get update && sudo apt install libqt5widgets5 qtbase5-dev qt5-default -y
+  - sudo apt-get update && sudo apt upgrade -y && sudo apt install libqt5widgets5 qtbase5-dev qt5-default -y
 
 addons:
   sonarcloud:
