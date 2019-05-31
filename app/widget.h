@@ -1,9 +1,9 @@
-/*#ifndef WIDGET_H
+#ifndef WIDGET_H
 #define WIDGET_H
 
-//#include <QWidget>
+#include <QWidget>
 #include <string>
-//#include <QListWidgetItem>
+#include <QListWidgetItem>
 
 namespace Ui {
 class Widget;
@@ -34,4 +34,4 @@ private:
 };
 
 #endif // WIDGET_H
-*/
+
