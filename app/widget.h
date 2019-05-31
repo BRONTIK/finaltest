@@ -1,7 +1,7 @@
 #ifndef WIDGET_H
 #define WIDGET_H
 
-#include <QWidget>
+#include <QWidget.h>
 #include <string>
 #include <QListWidgetItem>
 
