@@ -4,7 +4,7 @@ TEMPLATE = app
 CONFIG += console
 CONFIG -= app_bundle
 CONFIG += thread
-CONFIG -= qt
+CONFIG += qt
 
 QMAKE_CXXFLAGS += -Wall -Wextra -Werror
 QMAKE_CFLAGS += -Wall -Wextra -Werror
