@@ -6,10 +6,6 @@
 
 QT       += core gui widgets
 
-
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
-INCLUDEPATH += /opt/Qt/5.3/Src/qtbase/include/QtWidgets
-
 TARGET = untitled
 TEMPLATE = app
 
