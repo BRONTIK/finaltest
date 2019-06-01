@@ -12,7 +12,7 @@ TEST(test1, suite1)
 {
    Widget *w = new Widget();
     
-    w->list_filling("");
+    list_filling("");
     int count = 0;
     QFile file2("listItems");
     if (!file2.open(QIODevice::ReadOnly | QIODevice::Text))
