@@ -11,7 +11,7 @@
 */ 
 TEST(test1, suite1)
 {
-   Widget *w = new Widget();
+   Widget *ui;// = new Widget();
     
     ui->list_filling("");
     int count = 0;
