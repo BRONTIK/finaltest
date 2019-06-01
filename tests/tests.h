@@ -11,9 +11,6 @@
 */ 
 TEST(test1, suite1)
 {
-   Widget::Widget(QWidget *parent) :
-    QWidget(parent),
-    ui(new Ui::Widget){};
    //Widget *ui;// = new Widget();
     
     ui->list_filling("");
