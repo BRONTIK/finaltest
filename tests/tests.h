@@ -21,7 +21,7 @@ TEST(test1, suite1)
 //       QString line = out.readLine();
 //        EXPECT_EQ(line, ui->List->item(count));
 //        count++;
-    }
+//    }
     SUCCEED();
 }
 /* Тест проверяющий, что в подсказке вылезают нужные элементы
