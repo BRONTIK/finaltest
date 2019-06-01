@@ -37,7 +37,7 @@ Widget::~Widget()
 
 void Widget::comboBox_filling()
 {
-    QFile file("C:/Users/123456/Desktop/untitled/dataBase/cI2.txt");
+    QFile file("dataBase/cI2.txt");
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
         return;
 
@@ -134,7 +134,7 @@ void Widget::textBrowser_filling(QString name)
 void Widget::list_filling(const QString &substring)
 {
     //ui->lineEdit->setText("Поиск");
-    QFile file("C:/Users/123456/Desktop/untitled/dataBase/fff_1.txt");
+    QFile file("dataBase/fff_1.txt");
 
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
         return;
