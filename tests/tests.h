@@ -20,7 +20,7 @@ TEST(test1, suite1)
     QTextStream out(&file2);
     while (!out.atEnd()) {
        QString line = out.readLine();
-        EXPECT_EQ(line, w->List.item(count));
+        EXPECT_EQ(QString(line), QString(w->List.item(count)));
         count++;
     }
     SUCCEED();
