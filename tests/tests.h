@@ -3,6 +3,7 @@
 
 #include <gtest/gtest.h>
 #include "widget.h"
+#include "widget.cpp"
 #include "ui_widget.h"
 
 /* Тест проверяющий, что список "Коктейли" 
@@ -12,15 +13,18 @@ TEST(test1, suite1)
 {
    Widget *w = new Widget();
     
-    w->list_filling("");
+    ui->list_filling("");
     int count = 0;
     QFile file2("listItems");
+   
     if (!file2.open(QIODevice::ReadOnly | QIODevice::Text))
         return;
+   
     QTextStream out(&file2);
+   
     while (!out.atEnd()) {
        QString line = out.readLine();
-        EXPECT_EQ(QString(line), QString(w->List.item(count)));
+        EXPECT_EQ(QString(line), QString(ui->List.item(count)));
         count++;
     }
     SUCCEED();
