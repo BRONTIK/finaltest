@@ -1,9 +1,6 @@
 #ifndef WIDGET_H
 #define WIDGET_H
 
-//#include <QWidget>
-//#include <string>
-//#include <QListWidgetItem>
 #include <QWidget>
 #include <string>
 #include <QListWidgetItem>
@@ -32,6 +29,7 @@ class Widget : public QWidget
     Q_OBJECT
 
 public:
+    Ui::Widget *ui;
     void comboBox_filling();
     void textBrowser_filling(QString name);
     void list_filling(const QString &arg1);
@@ -47,8 +45,6 @@ private slots:
 
    // void on_lineEdit_selectionChanged();
 
-private:
-    Ui::Widget *ui;
 };
 
 #endif // WIDGET_H
