@@ -30,6 +30,7 @@ class Widget : public QWidget
 
 public:
     Ui::Widget *ui;
+    QListWidget List;
     void comboBox_filling();
     void textBrowser_filling(QString name);
     void list_filling(const QString &arg1);
