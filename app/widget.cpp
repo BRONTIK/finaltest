@@ -1,20 +1,20 @@
 #include "widget.h"
 #include "ui_widget.h"
-#include <QString>
-#include <QStringList>
-#include <QFile>
-#include <QDir>
-#include <QFileDialog>
-#include <QTextStream>
-#include <iostream>
-#include <QListWidget>
-#include <QListWidgetItem>
-#include <QMenuBar>
-#include <QAction>
-#include <cstring>
-#include <fstream>
-#include <QListWidgetItem>
-#include <QFrame>
+//#include <QString>
+//#include <QStringList>
+//#include <QFile>
+//#include <QDir>
+//#include <QFileDialog>
+//#include <QTextStream>
+//#include <iostream>
+//#include <QListWidget>
+//#include <QListWidgetItem>
+//#include <QMenuBar>
+//#include <QAction>
+//#include <cstring>
+//#include <fstream>
+//#include <QListWidgetItem>
+//#include <QFrame>
 
 using namespace std;
 
