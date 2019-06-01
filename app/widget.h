@@ -1,9 +1,27 @@
 #ifndef WIDGET_H
 #define WIDGET_H
 
+//#include <QWidget>
+//#include <string>
+//#include <QListWidgetItem>
 #include <QWidget>
 #include <string>
 #include <QListWidgetItem>
+#include <QString>
+#include <QStringList>
+#include <QFile>
+#include <QDir>
+#include <QFileDialog>
+#include <QTextStream>
+#include <iostream>
+#include <QListWidget>
+#include <QListWidgetItem>
+#include <QMenuBar>
+#include <QAction>
+#include <cstring>
+#include <fstream>
+#include <QListWidgetItem>
+#include <QFrame>
 
 namespace Ui {
 class Widget;
