@@ -200,6 +200,12 @@ void Widget::on_List_itemActivated(QListWidgetItem *item)
         textBrowser_filling(item->text());
 }
 
+void Widget::on_pushButton_clicked()
+{
+    Class *cl = new Class(this);
+    cl->One();
+}
+
 /*void Widget::on_lineEdit_selectionChanged()
 {
     ui->lineEdit->clear();
