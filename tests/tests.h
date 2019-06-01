@@ -13,13 +13,13 @@ TEST(test1, suite1)
     
     w->list_filling("");
     int count = 0;
-    QFile file2("/home/02/abramov/sem2/untitled/listItems");
+    QFile file2("listItems");
     if (!file2.open(QIODevice::ReadOnly | QIODevice::Text))
         return;
     QTextStream out(&file2);
     while (!out.atEnd()) {
        QString line = out.readLine();
-        EXPECT_EQ(line, ui->List->item(count));
+        EXPECT_EQ(line, w->List->item(count));
         count++;
     }
     SUCCEED();
