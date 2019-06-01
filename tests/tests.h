@@ -12,7 +12,7 @@ TEST(test1, suite1)
 {
    Widget *w = new Widget();
     
-    list_filling("");
+    w->list_filling("");
     int count = 0;
     QFile file2("listItems");
     if (!file2.open(QIODevice::ReadOnly | QIODevice::Text))
@@ -20,7 +20,7 @@ TEST(test1, suite1)
     QTextStream out(&file2);
     while (!out.atEnd()) {
        QString line = out.readLine();
-        EXPECT_EQ(line, ui->List->item(count));
+        EXPECT_EQ(line, w->List->item(count));
         count++;
     }
     SUCCEED();
