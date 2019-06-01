@@ -10,6 +10,8 @@
 TEST(test1, suite1)
 {
     Widget *w = new Widget();
+    Widget v;
+    int v = ui;
 
     w->list_filling("");
     int count = 0;
@@ -19,7 +21,7 @@ TEST(test1, suite1)
     QTextStream out(&file2);
     while (!out.atEnd()) {
         QString line = out.readLine();
-        EXPECT_EQ(line, ui->List->item(count));
+        EXPECT_EQ(line, v->List->item(count));
         count++;
     }
     SUCCEED();
