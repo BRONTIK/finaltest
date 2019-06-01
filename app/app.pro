@@ -23,6 +23,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += C++11
 
 SOURCES += \
+        functions.cpp \
         main.cpp \
         widget.cpp \
 
