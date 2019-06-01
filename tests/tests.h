@@ -3,6 +3,7 @@
 
 #include <gtest/gtest.h>
 #include "widget.h"
+#include "ui_widget.h"
 
 /* Тест проверяющий, что список "Коктейли" 
 * заполнен правильно 
