@@ -13,7 +13,7 @@ TEST(test1, suite1)
     list_filling_malyar(&List, "");
     
     int count = 0;
-    QFile file2("listItems");
+    QFile file2("app/listItems");
    
     if (!file2.open(QIODevice::ReadOnly | QIODevice::Text))
         return;
