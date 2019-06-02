@@ -2,6 +2,7 @@
 #define TESTS_H 
 
 #include <gtest/gtest.h>
+#include <QApplication>
 #include "widget.h"
 #include "widget.cpp"
 #include "ui_widget.h"
