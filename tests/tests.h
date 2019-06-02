@@ -11,9 +11,9 @@
 */ 
 TEST(test1, suite1)
 {
-   //Widget *ui;// = new Widget();
+   Widget ui;// = new Widget();
     
-    ui->list_filling("");
+    ui.list_filling("");
     int count = 0;
     QFile file2("listItems");
    
@@ -24,7 +24,7 @@ TEST(test1, suite1)
    
     while (!out.atEnd()) {
        QString line = out.readLine();
-        EXPECT_EQ(QString(line), QString(ui->List.item(count)));
+        EXPECT_EQ(QString(line), QString(ui.List.item(count)));
         count++;
     }
     SUCCEED();
