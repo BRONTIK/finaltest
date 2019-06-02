@@ -5,6 +5,6 @@
 #include <QFile>
 #include <QTextStream>
 
-void list_filling_mleat(QStringList *List, QString substring);
+void list_filling_malyar(QStringList *List, QString substring);
 
 #endif // FUNCTIONS_H
