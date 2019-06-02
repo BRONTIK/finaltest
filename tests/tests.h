@@ -25,7 +25,7 @@ TEST(test1, suite1)
         EXPECT_EQ(line, List.at(count));
         count++;
     }
-     EXPECT_EQ(count, List.count());
+     //PECT_EQ(count, List.count());
     SUCCEED();
 }
 /* Тест проверяющий, что в подсказке вылезают нужные элементы
@@ -34,7 +34,7 @@ TEST(test1, suite1)
 TEST(test2, suite2)
 {
    QStringList List;
-   list_filling_malyar(&List, "co");
+   list_filling_malyar(&List, "Co);
     
    EXPECT_EQ(2, List.count());
    //EXPECT_EQ("Corpse reviver", List.at(1));
