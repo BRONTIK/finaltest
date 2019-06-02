@@ -12,7 +12,7 @@ TEST(test1, suite1)
     QStringList List;
     list_filling_malyar(&List, "");
     
-    int count = 0;
+    //int count = 0;
     QFile file2("app/listItems");
    
     if (!file2.open(QIODevice::ReadOnly | QIODevice::Text))
