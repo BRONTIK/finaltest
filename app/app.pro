@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT += core /*widgets*/ gui
+QT += core gui # widgets
 
 TARGET = untitled
 TEMPLATE = app
@@ -25,15 +25,15 @@ CONFIG += C++11
 SOURCES += \
         functions.cpp \
         main.cpp \
-//        widget.cpp \
+#        widget.cpp \
 
 HEADERS += \
 //        widget.h \
     tests.h \
      functions.h \
 
-//FORMS += \
-//        widget.ui
+# FORMS += \
+#       widget.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
