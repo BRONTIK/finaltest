@@ -29,7 +29,8 @@ SOURCES += \
 
 HEADERS += \
         widget.h \
-    tests.h
+    tests.h \
+     functions.h \
 
 FORMS += \
         widget.ui
