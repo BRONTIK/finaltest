@@ -71,7 +71,6 @@ TEST(test4, suite4){
     while (count < 5) {
        EXPECT_EQ(w.at(count), List.at(count));
        count++;
-   }
-}
-}
+    }
+ }
 #endif // TESTS_H 
