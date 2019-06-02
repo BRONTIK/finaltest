@@ -12,8 +12,7 @@
 */ 
 TEST(test1, suite1)
 {
-        QApplication a(0, "");
-    Widget w;// = new Widget();
+
     
     //ui.list_filling("");
     int count = 0;
