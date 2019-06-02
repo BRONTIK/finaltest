@@ -6,7 +6,7 @@
 
 void list_filling_malyar(QStringList *List, QString substring)
 {
-    QFile file("dataBase/fff_1.txt");
+    QFile file("app/dataBase/fff_1.txt");
 
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
         return;
