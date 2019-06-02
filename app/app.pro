@@ -28,7 +28,7 @@ SOURCES += \
 #        widget.cpp \
 
 HEADERS += \
-//        widget.h \
+#       widget.h \
     tests.h \
      functions.h \
 
