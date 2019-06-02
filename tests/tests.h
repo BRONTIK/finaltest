@@ -12,7 +12,7 @@ TEST(test1, suite1)
     QStringList List;
     list_filling_malyar(&List, "");
     
-    //int count = 0;
+    int count = 0;
     QFile file2("app/listItems");
    
     if (!file2.open(QIODevice::ReadOnly | QIODevice::Text))
@@ -20,16 +20,16 @@ TEST(test1, suite1)
    
     QTextStream out(&file2);
    
-//     while (count < 41/*!out.atEnd()*/) {
-//         QString line = out.readLine();
-//         EXPECT_EQ(line, List.at(count));
-//         count++;
-//     }
+    while (!out.atEnd()) {
+        QString line = out.readLine();
+        EXPECT_EQ(line, List.at(count));
+        count++;
+    }
     
-   EXPECT_EQ("Corpse reviver", List.at(34));
-   EXPECT_EQ("Dark n stormy", List.at(33));
-      EXPECT_EQ("Rum old fashioned", List.at(35));
-   EXPECT_EQ("Penicillin", List.at(36));
+//    EXPECT_EQ("Corpse reviver", List.at(34));
+//    EXPECT_EQ("Dark n stormy", List.at(33));
+//       EXPECT_EQ("Rum old fashioned", List.at(35));
+//    EXPECT_EQ("Penicillin", List.at(36));
     
 //      EXPECT_EQ(2, List.count());
 //     EXPECT_EQ(2, count);
