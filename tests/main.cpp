@@ -1,5 +1,6 @@
 #include <gtest/gtest.h>
 #include "tests.h"
+#include "widget.h"
 
 
 int main(int argc, char *argv[])
