@@ -10,7 +10,7 @@
 TEST(test1, suite1)
 {
     QStringList List;
-    list_filling_mleat(&List, "");
+    list_filling_malyar(&List, "");
     
     int count = 0;
     QFile file2("listItems");
@@ -32,12 +32,11 @@ TEST(test1, suite1)
  */
 TEST(test2, suite2)
 {
-//    Widget *w = new Widget();
-//    w->list_filling("");
-//    ui->lineEdit->setText("co");
-//    EXPECT_EQ("Cosmopolitan", ui->List->item(0));
-//    EXPECT_EQ("Corpse reviver", ui->List->item(1));
-    SUCCEED();
+   QStringList List;
+   list_filling_malyar(&List, "co");
+   EXPECT_EQ("Cosmopolitan", List.item(0));
+   EXPECT_EQ("Corpse reviver", List.item(1));
+   SUCCEED();
 }
 /* Тест проверяющий, что в подсказке вылезают нужные элементы
  *  и что регистр не имеет значения
