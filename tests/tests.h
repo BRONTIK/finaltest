@@ -25,7 +25,8 @@ TEST(test1, suite1)
         EXPECT_EQ(line, List.at(count));
         count++;
     }
-     //PECT_EQ(count, List.count());
+     EXPECT_EQ(2, List.count());
+    EXPECT_EQ(2, count);
     SUCCEED();
 }
 /* Тест проверяющий, что в подсказке вылезают нужные элементы
