@@ -9,9 +9,9 @@
 */ 
 TEST(test1, suite1)
 {
-
+    QStringList List;
+    list_filling_mleat(&List, "");
     
-    //ui.list_filling("");
     int count = 0;
     QFile file2("listItems");
    
@@ -21,8 +21,8 @@ TEST(test1, suite1)
     QTextStream out(&file2);
    
     while (!out.atEnd()) {
-       QString line = out.readLine();
-        //EXPECT_EQ(line, w.List.item(count));
+        QString line = out.readLine();
+        EXPECT_EQ(line, List.at(count));
         count++;
     }
     SUCCEED();
