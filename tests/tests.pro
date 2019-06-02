@@ -16,11 +16,11 @@ QMAKE_CFLAGS += -fprofile-arcs -ftest-coverage
 LIBS += -lgcov
 
 HEADERS +=     tests.h \
-    ../app/widget.h 
+    ../app/functions.h 
     
 
 SOURCES +=     main.cpp \
-    ../app/widget.cpp
+    ../app/functions.cpp
 
 INCLUDEPATH += ../app
 
