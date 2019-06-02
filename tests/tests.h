@@ -34,7 +34,7 @@ TEST(test1, suite1)
 TEST(test2, suite2)
 {
    QStringList List;
-   list_filling_malyar(&List, "C");
+   list_filling_malyar(&List, "");
     
    EXPECT_EQ(2, List.count());
    //EXPECT_EQ("Corpse reviver", List.at(1));
