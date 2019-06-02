@@ -5,7 +5,7 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG += thread
 CONFIG += qt
-QT     += core widgets gui
+QT     += core gui # widgets
 
 QMAKE_CXXFLAGS += -Wall -Wextra -Werror
 QMAKE_CFLAGS += -Wall -Wextra -Werror
@@ -26,8 +26,8 @@ INCLUDEPATH += ../app
 
 DISTFILES += listItems
 
-FORMS += \
-        ../app/widget.ui
+# FORMS += \
+#        ../app/widget.ui
 
 
 
