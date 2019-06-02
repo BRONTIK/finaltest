@@ -13,7 +13,7 @@ TEST(test1, suite1)
 {
     Widget ui;// = new Widget();
     
-    ui.list_filling("");
+    //ui.list_filling("");
     int count = 0;
     QFile file2("listItems");
    
