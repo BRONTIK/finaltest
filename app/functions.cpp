@@ -4,7 +4,7 @@
 #include <QString>
 
 
-void list_filling_mleat(QStringList *List, QString substring)
+void list_filling_malyar(QStringList *List, QString substring)
 {
     QFile file("dataBase/fff_1.txt");
 
