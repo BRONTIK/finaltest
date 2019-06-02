@@ -20,7 +20,7 @@ TEST(test1, suite1)
    
     QTextStream out(&file2);
    
-    while (count < 11/*!out.atEnd()*/) {
+    while (count < 31/*!out.atEnd()*/) {
         QString line = out.readLine();
         EXPECT_EQ(line, List.at(count));
         count++;
