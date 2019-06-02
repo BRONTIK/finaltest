@@ -35,7 +35,7 @@ TEST(test2, suite2)
    QStringList List;
    list_filling_malyar(&List, "co");
     
-   //EXPECT_EQ("Cosmopolitan", List.at(0));
+   EXPECT_EQ(QString("Cosmopolitan"), List.at(0));
    //EXPECT_EQ("Corpse reviver", List.at(1));
     
    SUCCEED();
